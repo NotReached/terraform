@@ -16,4 +16,5 @@ variable "terraform-asg-example" {
 
 variable "availability_zones" {
   type        = list
+  default     = []
 }

@@ -13,3 +13,8 @@ variable "terraform-asg-example" {
   type        = string
   default     = ""
 }
+
+variable "availability_zones" {
+  type        = list
+  default     = []
+}
